@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.filterable-table {
+  width: 20rem;
+}
+.search-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0;
+}
+.input-search {
+  padding: 10px;
+}
+
+.product-table {
+  margin-top: 10px;
+}
+
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+  width: 20rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+th,
+.price {
+  text-align: center;
+}
+
+td:hover {
+  color: green;
+  background-color: turquoise;
+}
