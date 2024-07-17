@@ -44,7 +44,7 @@ th,
   text-align: center;
 }
 
-td:hover {
+.products:hover {
   color: green;
   background-color: turquoise;
 }

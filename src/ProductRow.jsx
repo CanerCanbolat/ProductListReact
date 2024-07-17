@@ -5,7 +5,7 @@ export default function ProductRow({ product }) {
     <span style={{ color: "red" }}>{product.name}</span>
   );
   return (
-    <tr>
+    <tr className="products">
       <td> {name} </td>
       <td className="price"> {product.price} </td>
     </tr>

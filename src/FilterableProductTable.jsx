@@ -11,6 +11,7 @@ export default function FilterableProductTable() {
   const filteredProducts = products.filter((product) =>
     applyFilters(product, filterText, inStockOnly)
   );
+
   return (
     <div className="filterable-table">
       <SearchBar
@@ -19,12 +20,7 @@ export default function FilterableProductTable() {
         onFilterTextChange={setFilterText}
         onInStockOnly={setInStockOnly}
       />
-      <ProductTable
-        filterText={filterText}
-        inStockOnly={inStockOnly}
-        categories={categories}
-        products={filteredProducts}
-      />
+      <ProductTable categories={categories} products={filteredProducts} />
     </div>
   );
 }
